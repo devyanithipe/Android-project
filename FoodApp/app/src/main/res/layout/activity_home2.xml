@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeActivity"
+    android:background="@drawable/pngegg"
+    >
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/brn_grad"
+        android:src="@drawable/ic_baseline_add_24"
+        android:text="LOGOUT"
+        android:textColor="#ffff"
+        android:textStyle="bold"
+        android:onClick="btn_logout"
+        android:id="@+id/logout"
+        >
+    </Button>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:hint="search"
+        android:textSize="22sp"
+        android:gravity="center"
+        android:textColorHint="#ffff"
+        android:id="@+id/txt_searchtext"
+        android:textColor="#ffff"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/brn_grad"
+        android:textStyle="bold"
+      >
+    </EditText>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recycleview"
+        android:scrollbars="vertical"
+        android:layout_below="@+id/txt_searchtext"
+        android:layout_marginTop="20dp"
+        />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="@color/endcolorgrad"
+        android:onClick="btn_uploadActivity"
+        android:src="@drawable/ic_baseline_add_24"
+        android:tint="@color/design_default_color_on_primary">
+    </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "30978457275",
+    "firebase_url": "https://recipe-b2da2.firebaseio.com",
+    "project_id": "recipe-b2da2",
+    "storage_bucket": "recipe-b2da2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:30978457275:android:f19a6704456f8405ae739e",
+        "android_client_info": {
+          "package_name": "com.it45.foodapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "30978457275-5btl48v9shr2gkp437vec9v9728l3ct7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZTZW-9pUVgslDEG7WHcLQ9mU4jCBDELE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "30978457275-5btl48v9shr2gkp437vec9v9728l3ct7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
